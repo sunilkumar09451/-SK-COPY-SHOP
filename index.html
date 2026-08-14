@@ -1,204 +1,99 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>SK Copy Shop</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
-
-body{
-    background:#f5f7fb;
-    color:#222;
-}
-
-header{
-    background:#0d47a1;
-    color:white;
-    padding:25px 15px;
-    text-align:center;
-}
-
-header h1{
-    font-size:32px;
-    margin-bottom:8px;
-}
-
-header p{
-    font-size:17px;
-}
-
-nav{
-    background:#08306b;
-    padding:12px;
-    text-align:center;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 12px;
-    font-weight:bold;
-}
-
-.hero{
-    text-align:center;
-    padding:50px 20px;
-    background:white;
-}
-
-.hero h2{
-    color:#0d47a1;
-    font-size:30px;
-    margin-bottom:15px;
-}
-
-.hero p{
-    font-size:18px;
-    margin-bottom:25px;
-}
-
-.button{
-    display:inline-block;
-    background:#25D366;
-    color:white;
-    padding:13px 25px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.products{
-    padding:40px 20px;
-    text-align:center;
-}
-
-.products h2{
-    color:#0d47a1;
-    margin-bottom:25px;
-}
-
-.cards{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.card{
-    background:white;
-    width:250px;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 3px 12px rgba(0,0,0,0.12);
-}
-
-.card h3{
-    color:#0d47a1;
-    margin-bottom:12px;
-}
-
-.card p{
-    margin-bottom:10px;
-}
-
-.contact{
-    background:#e3f2fd;
-    padding:40px 20px;
-    text-align:center;
-}
-
-.contact h2{
-    color:#0d47a1;
-    margin-bottom:15px;
-}
-
-footer{
-    background:#08306b;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Copy Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 30px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #eef2f7;
+            padding: 20px;
+            border-radius: 6px;
+            width: 45%;
+            min-width: 200px;
+        }
+        .card h3 {
+            margin-bottom: 10px;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 15px;
+            background: #222;
+            color: white;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>
-    <h1>SK COPY SHOP</h1>
-    <p>Quality Copies & Printing Services</p>
-</header>
+    <header>
+        <h1>Welcome to SK Copy Shop</h1>
+        <p>Your one-stop solution for Printing & Xerox services!</p>
+    </header>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#products">Products</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section class="hero" id="home">
-    <h2>Welcome to SK Copy Shop</h2>
-    <p>कॉपी, प्रिंटिंग और स्टेशनरी की अच्छी क्वालिटी</p>
-
-    <a class="button"
-       href="https://wa.me/919452950985">
-       WhatsApp पर संपर्क करें
-    </a>
-</section>
-
-<section class="products" id="products">
-
-    <h2>Our Products</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Notebook</h3>
-            <p>High Quality Copies</p>
-            <p>Best Price</p>
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>🖨️ Photocopy / Xerox</h3>
+                <p>High-quality Black & White and Color printing.</p>
+            </div>
+            <div class="card">
+                <h3>📄 Document Printing</h3>
+                <p>PDF, Word, Images, and Assignment printing.</p>
+            </div>
+            <div class="card">
+                <h3>📚 Spiral Binding</h3>
+                <p>Professional binding for books and reports.</p>
+            </div>
+            <div class="card">
+                <h3>🆔 Lamination</h3>
+                <p>Protect your important documents & ID cards.</p>
+            </div>
         </div>
-
-        <div class="card">
-            <h3>Printing</h3>
-            <p>Black & White Printing</p>
-            <p>Colour Printing</p>
-        </div>
-
-        <div class="card">
-            <h3>Stationery</h3>
-            <p>School & College Items</p>
-            <p>Affordable Price</p>
-        </div>
-
     </div>
-</section>
 
-<section class="contact" id="contact">
-
-    <h2>Contact Us</h2>
-
-    <p>📞 Mobile: 9452950985</p>
-    <p>📍 Varanasi, Uttar Pradesh</p>
-
-    <br>
-
-    <a class="button"
-       href="https://wa.me/919452950985">
-       WhatsApp करें
-    </a>
-
-</section>
-
-<footer>
-    <p>© 2026 SK Copy Shop. All Rights Reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 SK Copy Shop. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
